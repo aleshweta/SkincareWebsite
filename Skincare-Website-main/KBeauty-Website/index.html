@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+   <link rel= "stylesheet" href="./style.css"/>
+   <title>Main page</title>
+</head>
+<body>
+   <div class= "container">
+    <header>
+        <nav>
+          
+            <div class="nav-button">Products </div>
+            
+            <div class= "nav-open">
+                <div class="products">
+    <ul>
+        <li>Cleanser</li>
+        <li>Moisturizer</li>
+        <li>Suncreen</li>
+    
+    </ul>
+    </div>
+            </div>
+            <div class=" right">
+                <a href= "signup.html"> Login</a></div> 
+           </nav>
+   
+        
+        <section>
+      <img src= "wallpaper.jpg" id="wallpaper" style="width: 100%;">
+                
+        <h2 id= "text"> KBeauty</h2>
+          
+    </section>
+</header>
+</div>
+    
+
+   <script type="text/javascript">
+
+   let wallpaper=document.getElementById("wallpaper");
+   let text=document.getElementById("text");
+   window.addEventListener('scroll', function(){
+    var value= window.scrollY;
+
+    wallpaper.style.top= value * 0.15 + 'px';
+    text.style.top= value * 1+ 'px';})
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    
+       <script src= "style.js"></script>
+</body>
+</html>

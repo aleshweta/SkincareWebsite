@@ -1,0 +1,66 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel= "stylesheet" href="./styleSingup.css"/>
+
+        <title>CREATE AN ACCOUNT</title>
+        <style> 
+        header{
+            height: 20vh;
+            font-family: normal;
+        }
+    
+
+        body { background-color: blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;}
+        form {border: 3px solid #f1f1f1;}
+           input[type= text], input[type= email]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+           }
+           button{
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 25%;
+           }
+           button:hover {
+            opacity: 0.8;
+          }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Kbeauty</h1>
+        </header>
+        <h2>CREATE AN ACCOUNT</h2>
+        <form>
+            <label for= "first-name"><b>FIRST NAME</b></label> 
+            <input type= "text" placeholder="Enter first name" name="first-name" required><br>
+            <label for= "last-name"><b>LAST NAME</b></label>
+            <input type= "text" placeholder="Enter last name" name="last-name" required><br>
+            <label for= "mail"><b>EMAIL</b></label>
+            <input type= "email" placeholder="Enter email" name="mail" required><br>
+            <label for= "psw"><b>PASSWORD</b></label>
+            <input type= "text" placeholder="Enter password" name="psw" required><br>
+            <label for= "pswconfirm"><b>CONFIRM PASSWORD</b></label>
+            <input type= "text" placeholder="Confirm password" name="pswconfirm" required><br>
+
+            <button type="submit">REGISTER!</button><br><br>
+            <a href="index.html">Go Home</a>
+
+        </form>
+       
+    </body>
+    </html>

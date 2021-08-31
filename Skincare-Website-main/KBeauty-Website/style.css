@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+  background-color: blanchedalmond;
+    min-height: 1200px;
+    font-family: "Raleway", sans-serif;
+    background-color: blanchedalmond;
+}
+header{
+    height: 50vh;
+    position: relative;
+    padding: 30px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, mistyrose, transparent);
+    z-index: 1000;
+}
+section:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    mix-blend-mode: color;
+}
+section img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+.container{
+position: relative;
+text-align: center;
+}
+
+.right{
+   top:30px;
+    position:absolute;
+   right: 35px;
+    font-family: normal;
+   
+  
+    Z-index: 5000;
+  
+}
+.right a{
+    color: #916356;
+    font-size: 35px;
+   
+}
+#wallpaper{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    object-position: top;
+}
+nav{
+    background: blanchedalmond;
+    z-index:2;
+    width: 20%;
+    height: 20%;
+   
+}
+.nav-button{
+    z-index:10000;
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    color: #916356;
+    font-size: 35px;
+}
+.nav-open{
+    z-index:5000;
+    position: absolute;
+    width: 10%;
+    height:60%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   opacity: 0;
+   pointer-events: none;
+   background-color: blanchedalmond;
+   
+
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.products ul li{
+    list-style-type: none;
+    padding-bottom:10px;
+    text-decoration: none;
+    color: #916356;
+    font-size: 30px;
+
+}
+
+
+#text{
+    position: relative;
+    color:black;
+
+font-family: normal;
+    font-size: 10em;
+    z-index:1;
+
+    opacity: 3;
+}

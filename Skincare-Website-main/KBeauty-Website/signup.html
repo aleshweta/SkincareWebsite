@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    <link rel= "stylesheet" href="./styleSingup.css"/>
+    <title>LOG IN/ CREATE ACCOUNT</title>
+    <style>
+        header{
+            height: 20vh;
+            font-family: normal; }
+        body {font-family: Arial, Helvetica, sans-serif;}
+        form {border: 3px solid #f1f1f1;}
+        input[type=email],input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+        </style>
+</head>
+<body>
+    <header><h1>KBeauty</h1></header>
+
+    <h2>LOG IN</h2>
+    <form >
+       
+            <label for="mail"><b>Email</b></label>
+            <input type="email" placeholder="Enter email " name= mail required><br>
+            <label for= "psw"><b>PASSWORD</b></label>
+            <input type="text" placeholder="Enter password" name="psw" required><br>
+            <button type ="submit"> LOG IN</button>
+            <label>
+                <input type="checkbox" checked ="checked" name="remember"> Remember me</label><br><br>
+            <b><a href= "register.html">Not a member?</a></b><br><br>
+            <a href="index.html">Go Home</a>
+        </form>
+       
+
+</body>
+</html>
